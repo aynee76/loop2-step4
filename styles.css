@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: Roboto;
+    background-color: #55557e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.item {
+    background-color: #252525;
+    width: 35px;
+    height: 25px;
+    padding: 15px;
+    opacity: 50%;
+}
+
+.item:hover {
+    opacity: 70%;
+}
+
+.big {
+    background-color: #252525;
+    width: 40px;
+    height: 28px;
+    padding: 25px;
+    margin-top: -11px;
+    box-shadow: -2px 2px 29px -7px #313131;
+}
+
+main {
+    width: 250px;
+    height: 400px;
+    margin-top: 1rem;
+    margin-left: -2rem;
+    border-radius: 4px;
+}
+
+header {
+    width: 250px;
+    height: 120px;
+    background-image: url(/img/food.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column; 
+    padding: 1rem;  
+    border-radius: 4px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.bar {
+    display: flex;
+    column-gap: 1.5px;
+}
+
+.loc {
+    display: flex;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.place {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.location {
+    width: 14px;
+    height: 14px;
+}
+
+.food {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.part-2 {
+    background-color: white;
+    width: 250px;
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    /* padding: 1rem; */
+}
+
+hr {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    opacity: 60%;
+}
+
+.menu {
+    color: rgb(168, 164, 164);
+    font-size: 14px;
+}
+
+.num {
+    color: rgb(168, 164, 164);
+    font-size: 14px;
+    margin-right: 0.5rem;
+}
+span.num{
+    overflow: hidden;
+}
+section:hover .num{
+    color: black;
+    overflow: hidden;
+    transform: scale(1.3);
+
+}
